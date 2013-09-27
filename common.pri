@@ -28,4 +28,8 @@ WARNINGS += -Wall
 DESTDIR = bin
 OBJECTS_DIR = build
 
-HEADERS +=
+HEADERS += \
+    ../util/eventlogger.h
+
+SOURCES += \
+    ../util/eventlogger.cpp
