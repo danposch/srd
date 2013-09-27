@@ -10,4 +10,5 @@ TARGET = srdc
 LIBS += 
 
 HEADERS += 
-SOURCES +=
+SOURCES += \
+    main.cc
